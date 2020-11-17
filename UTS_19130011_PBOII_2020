@@ -8,3 +8,20 @@ class M16 turunan dari class Senjata
 7	 System.out.println("M16 = Trrrrrr Trrrrrrrrrr Trrrrr !!! ");
 8	}
 9	}
+
+class Bazhoka merupakan turunan dari class Senjata
+
+public class Bazhoka extends Senjata {
+public void tembak (){
+System.out.println(“Bazoka = Booooomm Booooommmm Booooomm !!!”);
+}
+
+class induk Senjata
+
+1	public class Senjata {// kelas induk
+2	  
+3	public void tembak(){
+4	 System.out.println("Door Dorrr Dorrr");
+5	  
+6	}
+7	}
