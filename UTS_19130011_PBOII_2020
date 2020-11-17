@@ -1,0 +1,10 @@
+class M16 turunan dari class Senjata
+1	public class M16 extends Senjata {
+2	/*extends = keyword inheritance ,
+3	 * bahwa kelas M16 adalah kelas anak dari kelas induk Senjata.
+4	 *
+5	 */
+6	public void tembak (){
+7	 System.out.println("M16 = Trrrrrr Trrrrrrrrrr Trrrrr !!! ");
+8	}
+9	}
